@@ -5,7 +5,7 @@ Overview of the model
 
 In this exercise, I’ve chosen to focus on one important metric to help decide whether an audit is required or not – the charge difference that has occurred due to the change in the original coder work and the final audit (ch.final.chg.diff). 
 I used the following factors as inputs to a binomial linear regression model – disposition,	site.id, ts.coder.id, age.yrs, MIPS.ts.error, MIPS.ts.coder.error, Dx.ts.error, mod.ts.error,	primary.ts.cpt, ch.delete.ch.audit.em .
-While the accuracy of the model is high, this is misleading since the data is highly imbalanced. Removing rows that have NULL values is also not ideal.
+While the accuracy of the model is high, this is misleading since the data is highly imbalanced. Removing rows that have NULL values is also not ideal. The model can easily be used on new data by importing a CSV file by the same name.
 
 Immediate Next Steps
 
